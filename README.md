@@ -25,5 +25,8 @@ if event.phase == "down" and key == your_key then
 end
 
 -- 4. change the frame rate (time is in milliseconds)
-grid:animate(fps30)
+grid:animate(your_delay)
 ```
+
+## Example:
+![GoL gif](https://github.com/Luca96/conway-game-of-life-corona-sdk/blob/master/gof_anim.gif)
